@@ -43,3 +43,25 @@ The types of changes that could be detected are:
 - [ ] doesn't depend on Python (many Windows GDB installs lack its support)
 - [ ] correct line info (stepping goes to the correct line)
 
+
+### Compiler Debugging
+
+- [ ] trigger debug logging and breakpoints when desired:
+  - [ ] package is processed
+  - [ ] module is processed
+  - [ ] source line is processed
+  - [ ] symbol is processed
+
+- [ ] easier bisection
+  - [ ] committed list of broken commits
+  - [ ] committed list of special build requirements
+  - [ ] cache builds
+  - [ ] handle special build requirements for commit ranges
+  - [ ] handle csources
+
+- [ ] GitHub bot that auto bisects issues
+
+## See Also
+
+- https://github.com/nim-lang/RFCs/issues/300
+
