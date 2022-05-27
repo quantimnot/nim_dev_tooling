@@ -23,6 +23,8 @@ See https://nim-lang.github.io/Nim/estp.html
 
 ### C Backend Profiler
 
+https://github.com/nim-lang/Nim/wiki/Profiling
+
 
 ### JS Backend Profiler
 
@@ -60,7 +62,9 @@ The types of changes that could be detected are:
 - [ ] correct line info (stepping goes to the correct line)
 
 
-### Compiler Debugging
+## Compiler Dev Tools
+
+### Debugging
 
 - [ ] trigger debug logging and breakpoints when desired:
   - [ ] package is processed
@@ -75,7 +79,19 @@ The types of changes that could be detected are:
   - [ ] handle special build requirements for commit ranges
   - [ ] handle csources
 
+### CI/CD
+
 - [ ] GitHub bot that auto bisects issues
+- [ ] GitHub workflows that run all of the tests
+  - [ ] Linux compiler bootsraps
+    - [ ] Linux lang category passes
+      - [ ] Linux stdlib category passes
+        - [ ] macOS and Windows compiler bootsraps
+          - [ ] macOS and Windows lang passes
+            - [ ] macOS and Windows stdlib passes
+                - [ ] macOS and Windows important packages passes
+      - [ ] Linux important packages passes
+- [ ] obscure platform tests
 
 ## See Also
 
