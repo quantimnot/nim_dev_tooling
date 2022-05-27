@@ -1,14 +1,30 @@
 # Nim Developer Tooling
 
-### IDE Support
+## IDE Support
 
 - [ ] Nim LSP
 - [ ] VSCode
+  - [ ] written tutorial
+  - [ ] video tutorial
 - [ ] Emacs
+  - [ ] written tutorial
+  - [ ] video tutorial
 - [ ] Vim
+  - [ ] written tutorial
+  - [ ] video tutorial
+
 
 ## Profiling
 
+### Embedded Profiler
+
+See https://nim-lang.github.io/Nim/estp.html
+
+
+### C Backend Profiler
+
+
+### JS Backend Profiler
 
 
 ## Test Code Coverage
